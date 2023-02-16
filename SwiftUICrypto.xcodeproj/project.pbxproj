@@ -11,6 +11,7 @@
 		D7F96459299E941F005B0E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F96458299E941F005B0E5F /* ContentView.swift */; };
 		D7F9645B299E9420005B0E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9645A299E9420005B0E5F /* Assets.xcassets */; };
 		D7F9645E299E9420005B0E5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9645D299E9420005B0E5F /* Preview Assets.xcassets */; };
+		D7F96466299E965D005B0E5F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F96465299E965D005B0E5F /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D7F96458299E941F005B0E5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7F9645A299E9420005B0E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F9645D299E9420005B0E5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7F96465299E965D005B0E5F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F96456299E941F005B0E5F /* SwiftUICryptoApp.swift */,
+				D7F96464299E9648005B0E5F /* Extensions */,
 				D7F96458299E941F005B0E5F /* ContentView.swift */,
 				D7F9645A299E9420005B0E5F /* Assets.xcassets */,
 				D7F9645C299E9420005B0E5F /* Preview Content */,
@@ -65,6 +68,14 @@
 				D7F9645D299E9420005B0E5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7F96464299E9648005B0E5F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7F96465299E965D005B0E5F /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D7F96459299E941F005B0E5F /* ContentView.swift in Sources */,
 				D7F96457299E941F005B0E5F /* SwiftUICryptoApp.swift in Sources */,
+				D7F96466299E965D005B0E5F /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
