@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7DD85FD299FF1B900C57A9C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DD85FC299FF1B900C57A9C /* HomeViewModel.swift */; };
 		D7F96457299E941F005B0E5F /* SwiftUICryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F96456299E941F005B0E5F /* SwiftUICryptoApp.swift */; };
 		D7F96459299E941F005B0E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F96458299E941F005B0E5F /* ContentView.swift */; };
 		D7F9645B299E9420005B0E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9645A299E9420005B0E5F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7DD85FC299FF1B900C57A9C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D7F96453299E941F005B0E5F /* SwiftUICrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F96456299E941F005B0E5F /* SwiftUICryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoApp.swift; sourceTree = "<group>"; };
 		D7F96458299E941F005B0E5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		D7F9646A299E9CA7005B0E5F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D7DD85FC299FF1B900C57A9C /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F96477299FE59A005B0E5F /* CoinRowView.swift in Sources */,
+				D7DD85FD299FF1B900C57A9C /* HomeViewModel.swift in Sources */,
 				D7F96459299E941F005B0E5F /* ContentView.swift in Sources */,
 				D7F9646C299E9CBB005B0E5F /* HomeView.swift in Sources */,
 				D7F96457299E941F005B0E5F /* SwiftUICryptoApp.swift in Sources */,
