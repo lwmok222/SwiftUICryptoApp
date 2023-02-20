@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D7DD85FD299FF1B900C57A9C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DD85FC299FF1B900C57A9C /* HomeViewModel.swift */; };
 		D7DD8600299FF82600C57A9C /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DD85FF299FF82600C57A9C /* CoinDataService.swift */; };
+		D7DD860329A000B600C57A9C /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DD860229A000B600C57A9C /* NetworkingManager.swift */; };
 		D7F96457299E941F005B0E5F /* SwiftUICryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F96456299E941F005B0E5F /* SwiftUICryptoApp.swift */; };
 		D7F96459299E941F005B0E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F96458299E941F005B0E5F /* ContentView.swift */; };
 		D7F9645B299E9420005B0E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F9645A299E9420005B0E5F /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		D7DD85FC299FF1B900C57A9C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D7DD85FF299FF82600C57A9C /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		D7DD860229A000B600C57A9C /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		D7F96453299E941F005B0E5F /* SwiftUICrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F96456299E941F005B0E5F /* SwiftUICryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoApp.swift; sourceTree = "<group>"; };
 		D7F96458299E941F005B0E5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		D7DD860129A0006700C57A9C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D7DD860229A000B600C57A9C /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		D7F9644A299E941F005B0E5F = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 				D7F96473299EA5B2005B0E5F /* Models */,
 				D7F96467299E9C82005B0E5F /* Core */,
 				D7F96464299E9648005B0E5F /* Extensions */,
+				D7DD860129A0006700C57A9C /* Utilities */,
 				D7DD85FE299FF7EE00C57A9C /* Services */,
 				D7F9645A299E9420005B0E5F /* Assets.xcassets */,
 				D7F9645C299E9420005B0E5F /* Preview Content */,
@@ -247,6 +258,7 @@
 				D7F96457299E941F005B0E5F /* SwiftUICryptoApp.swift in Sources */,
 				D7F96470299E9EAC005B0E5F /* CircleButtonView.swift in Sources */,
 				D7F96466299E965D005B0E5F /* Color.swift in Sources */,
+				D7DD860329A000B600C57A9C /* NetworkingManager.swift in Sources */,
 				D7F96472299EA266005B0E5F /* CircleButtonAnimationView.swift in Sources */,
 				D7F96479299FE60A005B0E5F /* PreviewProvider.swift in Sources */,
 				D7F9647B299FE9DC005B0E5F /* Double.swift in Sources */,
