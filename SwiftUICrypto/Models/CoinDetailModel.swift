@@ -115,13 +115,17 @@ struct CoinDetailModel: Identifiable, Codable {
     let links: Links?
     
     enum CodingKeys: String, CodingKey {
-            case id, symbol, name
-            case blockTimeInMinutes = "block_time_in_minutes"
-            case hashingAlgorithm = "hashing_algorithm"
-            case categories
-            case description
-            case links
-        }
+        case id, symbol, name
+        case blockTimeInMinutes = "block_time_in_minutes"
+        case hashingAlgorithm = "hashing_algorithm"
+        case categories
+        case description
+        case links
+    }
+    
+    var readableDescription: String? {
+        return description?.en?.removeHTMLOccurances
+    }
 }
 
 // MARK: - Description
